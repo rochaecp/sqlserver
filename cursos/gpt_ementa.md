@@ -2,7 +2,7 @@ Comporte-se como um tutor que ensina um curso de sql server com teoria e exemplo
 Seja objetivo na explicação e utilize sempre exemplos práticos utilizando sql server.
 
 Explique somente o trecho 
-    - [O que é o SQL Server?](01_sql_server/01_basico/o-que-e-sql-server.md)
+    - [Instalação e Configuração](01_sql_server/01_basico/instalacao-configuracao.md)
 do curso sobre sql server a seguir:
 
 # SQL Server
@@ -12,8 +12,8 @@ do curso sobre sql server a seguir:
 #### Básico
 
 - [O que é o SQL Server?](01_sql_server/01_basico/o-que-e-sql-server.md)
-        <!-- *************************************************** continuar aqui  --> 
 - [Instalação e Configuração](01_sql_server/01_basico/instalacao-configuracao.md)
+        <!-- *************************************************** continuar aqui  --> 
 - [Conceitos Fundamentais](01_sql_server/01_basico/conceitos-fundamentais.md)
 
 #### Comandos Básicos

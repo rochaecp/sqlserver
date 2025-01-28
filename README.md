@@ -1,39 +1,138 @@
 # SQL Server
 
-#### Introdução
+## **Introdução ao SQL Server**
 
-- [SQL Server](estudos/introducao/notes.md)
-- [Subconjuntos de Comandos](estudos/introducao/subconjunto_comandos.md)
-- [Operadores](estudos/introducao/operadores.md)
-- [Tipos de Dados](estudos/introducao/tipos_dados.md)
-- [Constantes do SQL Server](estudos/introducao/constantes.md)
-- [Funções do SQL Server](estudos/introducao/funcoes_prontas.md)
+#### Básico
 
-#### Comandos SQL DDL (Data Definition Language)
+- [O que é o SQL Server?](01_sql_server/01_basico/o-que-e-sql-server.md)
+- [Instalação e Configuração](01_sql_server/01_basico/instalacao-configuracao.md)
+- [Conceitos Fundamentais](01_sql_server/01_basico/conceitos-fundamentais.md)
 
-- [Create](estudos/ddl/create.md)
-- [Drop](estudos/ddl/drop.md)
+#### Comandos Básicos
 
-#### Comandos SQL DML (Data Manipulation Language)
+- [Comando CREATE](01_sql_server/02_comandos_basicos/create.md)
+- [Comando INSERT](01_sql_server/02_comandos_basicos/insert.md)
+- [Comando SELECT](01_sql_server/02_comandos_basicos/select.md)
+- [Comando UPDATE](01_sql_server/02_comandos_basicos/update.md)
+- [Comando DELETE](01_sql_server/02_comandos_basicos/delete.md)
+- [Comando DROP](01_sql_server/02_comandos_basicos/drop.md)
 
-- [Insert](estudos/dml/insert.md)
-- [Update](estudos/dml/update.md)
-- [Delete](estudos/dml/delete.md)
+#### Tipos de Dados
 
-#### Comandos SQL DQL (Data Query Language)
+- [Tipos de Dados Numéricos](01_sql_server/03_tipos_dados/numericos.md)
+- [Tipos de Dados Texto](01_sql_server/03_tipos_dados/texto.md)
+- [Tipos de Dados Data e Hora](01_sql_server/03_tipos_dados/data-hora.md)
 
-- [Select Where](estudos/dql/select_where.md)
-- [Select Order By](estudos/dql/select_order_by.md)
-- [Select Group By](estudos/dql/select_group_by.md)
-- [Select Offset Fetch](estudos/dql/select_offset_fetch.md)
-- [Select Top](estudos/dql/select_top.md)
-- [Select Distinct](estudos/dql/select_distinct.md)
-- [Select Inner Join](estudos/dql/select_inner_join.md)
+#### Funções
+
+- [Funções de Agregação](01_sql_server/04_funcoes/agregacao.md)
+- [Funções de String](01_sql_server/04_funcoes/strings.md)
+- [Funções de Data e Hora](01_sql_server/04_funcoes/data-hora.md)
+
+#### Joins
+
+- [INNER JOIN](01_sql_server/05_joins/inner-join.md)
+- [LEFT JOIN](01_sql_server/05_joins/left-join.md)
+- [RIGHT JOIN](01_sql_server/05_joins/right-join.md)
+- [FULL OUTER JOIN](01_sql_server/05_joins/full-outer-join.md)
+
+#### Subconsultas
+
+- [Subconsultas em SELECT](01_sql_server/06_subconsultas/subconsultas-select.md)
+- [Subconsultas em WHERE](01_sql_server/06_subconsultas/subconsultas-where.md)
+
+#### Consultas Avançadas
+
+- [CTEs e Recursividade](01_sql_server/07_consultas_avancadas/cte-recursivas.md)
+- [Window Functions](01_sql_server/07_consultas_avancadas/window-functions.md)
+- [Pivot e Unpivot](01_sql_server/07_consultas_avancadas/pivot-unpivot.md)
+
+## **Administração do Banco de Dados**
+
+#### Configuração e Gerenciamento
+
+- [Criando Bancos de Dados](02_administracao/01_gerenciamento/criando-bancos-dados.md)
+- [Gerenciando Tabelas](02_administracao/01_gerenciamento/gerenciando-tabelas.md)
+- [Índices](02_administracao/01_gerenciamento/indices.md)
+- [Views](02_administracao/01_gerenciamento/views.md)
+
+#### Segurança
+
+- [Autenticação e Autorização](02_administracao/02_seguranca/autenticacao-autorizacao.md)
+<!-- 
+- [Permissões em Tabelas](02_administracao/02_seguranca/permissoes-tabelas.md)
+- [Criptografia no SQL Server](02_administracao/02_seguranca/criptografia.md)
+- [Auditoria de Dados](02_administracao/02_seguranca/auditoria.md)
+- [Prevenção de SQL Injection](02_administracao/02_seguranca/sql-injection.md) 
+-->
+
+#### Backup e Recuperação
+
+- [Backup de Banco de Dados](02_administracao/03_backup_recuperacao/backup-banco-dados.md)
+- [Restauração de Banco de Dados](02_administracao/03_backup_recuperacao/restauracao-banco-dados.md)
+- [Estratégias de Recuperação](02_administracao/03_backup_recuperacao/estrategias-recuperacao.md)
 
 #### Stored Procedures
 
-- [Introdução](estudos/stored_procedures/introducao.md)
+- [Introdução às Stored Procedures](02_administracao/04_stored_procedures/introducao.md)
+<!-- 
+- [Criando Stored Procedures](02_administracao/04_stored_procedures/criando.md)
+- [Parâmetros de Entrada e Saída](02_administracao/04_stored_procedures/parametros.md)
+- [Stored Procedures Dinâmicas](02_administracao/04_stored_procedures/dinamicas.md)
+- [Vantagens e Boas Práticas](02_administracao/04_stored_procedures/vantagens.md) 
+-->
 
-#### Exemplos
+## **Performance e Otimização**
 
-- [Lojas de Informática](https://github.com/rochaecp/sql-server/tree/master/estudos/exemplos/LojasInformatica)
+#### Tuning
+
+- [Analisando Planos de Execução](04_performance/01_tuning/planos-execucao.md)
+<!-- 
+- [Otimização de Índices](04_performance/01_tuning/optimizacao-indices.md)
+- [Tabelas Temporárias](04_performance/01_tuning/tabelas-temporarias.md)
+- [Uso do SQL Profiler](04_performance/01_tuning/sql-profiler.md)
+- [Diagnóstico de Deadlocks](04_performance/01_tuning/deadlocks.md) 
+-->
+
+#### Transações
+
+- [Transações e Commit](04_performance/02_transacoes/commit.md)
+- [Rollback e Controle de Transações](04_performance/02_transacoes/rollback.md)
+- [Controle de Concorrência](04_performance/02_transacoes/concorrencia.md)
+
+## **Exemplos Práticos**
+
+- [CRUD com Tabelas de Produtos](05_exemplos/crud-produtos.md)
+<!-- 
+- [Relatório de Vendas com Joins](05_exemplos/relatorio-vendas.md)
+- [Funções para Cálculos Financeiros](05_exemplos/funcoes-calculos-financeiros.md)
+- [Gerenciamento de Usuários e Permissões](05_exemplos/usuarios-permissoes.md)
+- [Exemplo de Stored Procedure com Parâmetros](05_exemplos/stored-procedure-parametros.md)
+- [Usando Triggers para Auditoria](05_exemplos/triggers-auditoria.md) 
+-->
+
+## **Exercícios**
+
+- [Consultas Básicas](06_exercicios/consultas-basicas.md)
+<!-- 
+- [Usando Joins](06_exercicios/usando-joins.md)
+- [Funções Agregadas](06_exercicios/funcoes-agregadas.md)
+- [Criação e Gerenciamento de Índices](06_exercicios/gerenciamento-indices.md) 
+-->
+
+
+## **Bibliotecas e Ferramentas Úteis**
+
+#### Ferramentas
+
+- [SQL Server Management Studio (SSMS)](07_ferramentas/ssms.md)
+- [Azure Data Studio](07_ferramentas/azure-data-studio.md)
+
+#### Integração com Outras Linguagens
+
+- [SQL Server com Python](07_ferramentas/sql-python.md)
+- [SQL Server com C#](07_ferramentas/sql-csharp.md)
+
+#### Referências Externas
+
+- [Documentação Oficial do SQL Server](07_ferramentas/referencias/sql-server-documentation.md)

@@ -3,8 +3,11 @@
 #### Úteis
 
 - [O que é o SQL Server?](sql_server/01_uteis/o-que-e-sql-server.md)
-- [Instalação e Configuração](sql_server/01_uteis/instalacao-configuracao.md)
-- [Conceitos Fundamentais](sql_server/01_uteis/conceitos-fundamentais.md)
+- [LocalDB](sql_server/01_uteis/localdb.md)
+- [Constantes](sql_server/01_uteis/constantes.md)
+- [Funções](sql_server/01_uteis/funcoes.md)
+- [Operadores](sql_server/01_uteis/operadores.md)
+- [Tipos de Dados](sql_server/01_uteis/tipos_dados.md)
 
 #### Comandos Básicos
 
